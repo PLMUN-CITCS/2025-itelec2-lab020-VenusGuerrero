@@ -1,10 +1,6 @@
 def get_integer_input():
-    while True:
-        try:
-            number = int(input("Enter an integer: "))
-            return number
-        except ValueError:
-            print("Invalid input. Please enter an integer.")
+    number = int(input("Enter an integer: "))
+    return number
 
 def check_even_odd(number):    
     if number % 2 == 0:
