@@ -7,6 +7,6 @@ def check_even_odd(number):
         return f"{number} is an Even number."
     return f"{number} is an Odd number."
 
-number = get_integer_input()
-result = check_even_odd(number)
+number_final = get_integer_input()
+result = check_even_odd(number_final)
 print(result)
